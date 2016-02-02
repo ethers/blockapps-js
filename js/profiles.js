@@ -46,8 +46,8 @@ var profiles = {
         "serverURI" : "http://strato-live.blockapps.net",
         "pollEveryMS" : 1000,
         "pollTimeoutMS" : 30000,
-        "gasPrice" : ethValue(1).in("szabo"),
-        "gasLimit" : 1e6
+        "gasPrice" : ethValue(0.05).in("szabo"),
+        "gasLimit" : 3141592
     }
 };
 module.exports.profiles = profiles;
