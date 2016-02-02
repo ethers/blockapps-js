@@ -43,7 +43,7 @@ var profiles = {
     },
     "strato-live":
     {
-        "serverURI" : "http://strato-live.blockapps.net",
+        "serverURI" : "https://strato-live.blockapps.net",
         "pollEveryMS" : 1000,
         "pollTimeoutMS" : 30000,
         "gasPrice" : ethValue(0.05).in("szabo"),
